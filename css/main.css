@@ -1,0 +1,25 @@
+*{
+  font-family: 'SUITE-Regular';
+}
+h1{
+  font-family: 'KIMM_Bold';
+}
+#main{
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#main p{
+  font-weight: 60;
+}
+p{
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+
+h1{
+  padding-bottom: 15px;
+}
