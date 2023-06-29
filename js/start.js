@@ -2,8 +2,10 @@ const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 
-const endPoint = 12;
-const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const endPoint = 9;
+const select = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+// 결과 부분 ------------------------------------------
 
 function calResult(){
   console.log(select);
@@ -40,6 +42,10 @@ function goResult(){
     }, 450)})
     setResult();
 }
+
+
+// -----------------------------------------------------------
+
 
 function addAnswer(answerText, qIdx, idx){
   var a = document.querySelector('.answerBox');

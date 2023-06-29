@@ -6,8 +6,7 @@ function setShare(){
   const shareTitle = '서준전기 타이머콘센트 결과';
   const shareDes = infoList[resultAlt].name;
   const shareImage = url + 'img/image-' + resultAlt + '.jpg';
-  const shareURL = url;
-  // const shareURL = url + 'page/result-' + resultAlt + '.html';
+  const shareURL = url + 'page/result-' + resultAlt + '.html';
 
   Kakao.Link.sendDefault({
     objectType: 'feed',
