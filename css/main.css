@@ -25,12 +25,12 @@ h1{
   padding-bottom: 15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
   h1 {
-    font-size: 120%;
+    font-size: 80%;
   }
   p{
-    font-size: 100%;
+    font-size: 80%;
     padding-top: 15px;
   }
 }
