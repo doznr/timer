@@ -28,6 +28,7 @@ h1{
 @media screen and (max-width: 1500px){
   .qBox {
     padding : 15px;
+    font-size: 50%;
   }
 }
 
