@@ -3,7 +3,7 @@
 }
 h1{
   font-family: 'KIMM_Bold';
-  font-size: 80%;
+  font-size: 220%;
 }
 #main{
   background-color: whitesmoke;
@@ -16,8 +16,8 @@ h1{
   font-weight: 60;
 }
 p{
-  font-size: 40%;
-  padding-top: 15px;
+  font-size: 150%;
+  padding-top: 15px
 }
 
 
