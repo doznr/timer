@@ -25,6 +25,12 @@ h1{
   padding-bottom: 15px;
 }
 
+@media screen and (max-width: 1500px){
+  .qBox {
+    padding : 15px;
+  }
+}
+
 @media screen and (max-width: 668px) {
   h1 {
     font-size: 100%;
@@ -32,5 +38,8 @@ h1{
   p{
     font-size: 80%;
     padding-top: 15px;
+  }
+  .qBox {
+    font-size: 10%;
   }
 }
