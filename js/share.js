@@ -7,7 +7,7 @@ function setShare(){
   const shareDes = infoList[resultAlt].name;
   const shareImage = url + 'img/image-' + resultAlt + '.jpg';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
-
+  
   Kakao.Link.sendDefault({
     objectType: 'feed',
     content: {
