@@ -6,8 +6,11 @@
     background-color: whitesmoke;
     text-align: center;
     border-radius: 20px;
-    font-size: 24px;
-    width: 80%
+    font-size: 130%;
+    width: 80%;
+    box-sizing: border-box;
+    word-break: keep-all;
+    font-weight: bold;
   }
   
   .answerList {
@@ -16,7 +19,9 @@
     display: block;
     width: 80%;
     border: 0px;
-    font-size: 20px;
+    font-size: 110%;
+    word-break: keep-all;
+    box-sizing: border-box;
   }
   
   .answerList:hover, .answerList:focus {
