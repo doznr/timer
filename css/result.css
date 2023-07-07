@@ -1,9 +1,10 @@
 #result{
     display: none;
     background-color: whitesmoke;
-    width: 80%;
+    width: 95%;
     text-align: center;
     border-radius: 20px;
+    word-break: keep-all;
   }
   
   #shareResult{
@@ -14,11 +15,13 @@
   }
   
   .resultname{
-    font-size: 26px;
+    font-size: 150%;
+    box-sizing: border-box;
+    word-break: keep-all;
   }
   
   .resultDesc{
-    font-size: 20px;
+    font-size: 120%;
   }
 
   .kakao{
