@@ -1,0 +1,45 @@
+*{
+  font-family: 'SUITE-Regular';
+}
+h1{
+  font-family: 'KIMM_Bold';
+  font-size: 180%;
+}
+#main{
+  width:100%;
+  text-align: center;
+}
+
+#main p{
+  font-weight: 60;
+}
+p{
+  font-size: 120%;
+  padding-top: 15px
+}
+
+
+
+h1{
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 1500px){
+  .qBox {
+    padding : 15px;
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  h1 {
+    font-size: 100%;
+  }
+  p{
+    font-size: 80%;
+    padding-top: 15px;
+  }
+  .qBox {
+    font-size: 10%;
+  }
+}

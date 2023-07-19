@@ -5,8 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>서준전기 타이머콘센트</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <title>전기세 절약 인생템 | MBTI별 인생 타이머콘센트</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">   -->
   <link rel="stylesheet" href="./css/default.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/qna.css">
@@ -21,44 +22,46 @@
 
 <body>
   <div class="container">
-    <section id="main" class="mx-auto my-5 py-5 px-3">
-      <h1>필요에 따라 알아보는 <br> 타이머콘센트 유형</h1>
-      <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-        <img src="./img/main.jpg" alt="mainImage" class="img-fluid">
-      </div>
-      <p>
-        내게 필요한 서준전기 타이머콘센트는? <br>
-        아래 시작하기 버튼을 눌러주세요.
-      </p>
-      <button type="button" class="btn btn-outline-warning mt-3" onclick="js:begin()">시작하기</button>
-    </section>
+    <img id="main" onclick="js:begin()" loading="lazy" class="" src="/images/01.jpg"
+      alt="전기세 절약 인생템 | MBTI별 인생 타이머콘센트를 알아보자!">
     <section id="qna">
-      <div class="status mx-auto mt-5">
+
+      <div class="bg">
+      </div>
+
+      <div class="top">
+      <div class="status m-x-auto">
         <div class="statusBar">
         </div>
       </div>
-      <div class="qBox my-5 py-3 mx-auto">
+      </div>
+
+      <div class="num"></div>
+      <div class="qBox m-x-auto">
 
       </div>
-      <div class="answerBox">
-
+      <div class="flex">
+        <div class="answerBox"></div>
       </div>
+    
     </section>
-    <section id="result" class="mx-auto my-5 py-5 px-3">
-      <h1>원하시는 기능에 근접한 제품</h1>
-      <div class="resultname">
 
-      </div>
-      <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+    <section id="result" class="p-y-5 ">
+      <div id="resultImg">
 
       </div>
       <div class="resultDesc">
-
       </div>
-      <button type="button" class="kakao mt-3 py-2 px-3" onclick="location.href='https://smartstore.naver.com/jhelectric/products/5448674722';">자세히보기</button>
+      <div class="resultDesc02">
+      </div>
+      <div class="resultDesc03">
+      </div>
+      <div class="resultDesc04">
+      </div>
+      <button type="button" class="more m-t-3 p-y-2 p-x-3"
+        onclick="window.open('https://smartstore.naver.com/jhelectric/products/5448674722')">자세히보기</button>
     </section>
     <script src="./js/data.js" charset="utf-8"></script>
-    <!-- <script src="./js/test.js" charset="utf-8"></script> -->
     <script src="./js/start.js" charset="utf-8"></script>
     <script src="./js/share.js" charset="utf-8"></script>
   </div>
